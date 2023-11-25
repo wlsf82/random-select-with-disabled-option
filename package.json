@@ -1,7 +1,7 @@
 {
   "name": "random-select-with-disabled-option",
   "version": "1.0.0",
-  "description": "Sample project to demonstrate how to select a random option from a select field with a disabled option.",
+  "description": "Sample project to demonstrate how to select a random option from a select field with disabled options.",
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",

@@ -1,6 +1,6 @@
 # random-select-with-disabled-option
 
-Sample project to demonstrate how to select a random option from a select field with a disabled option.
+Sample project to demonstrate how to select a random option from a select field with disabled options.
 
 ## Pre-requirements
 
