@@ -1,6 +1,6 @@
-describe('Select with disabled option', () => {
+describe('Fruits', () => {
   Cypress._.times(10, () => {
-    it('randomly selects an option not considering the disabled one', () => {
+    it('randomly selects an fruit not considering the disabled ones', () => {
       cy.visit('./src/index.html')
   
       cy.selectRandomFruit()
