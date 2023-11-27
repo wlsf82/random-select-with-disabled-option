@@ -8,9 +8,13 @@ Cypress.Commands.add('pickRandomFruit', () => {
       }
     }
 
+    cy.log(`Indexes of enabled fruits: ${indexesOfEnabledOptions}`)
+
     const randomEnabledFruit = indexesOfEnabledOptions[
       Cypress._.random(0, indexesOfEnabledOptions.length - 1)
     ]
+
+    cy.log(`Random enabled fruit: ${randomEnabledFruit}`)
 
     cy.get('select').select(randomEnabledFruit)
   })
