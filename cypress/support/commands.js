@@ -1,6 +1,6 @@
 Cypress.Commands.add('pickRandomFruit', () => {
   cy.get('select option').then(options => {
-    let indexesOfEnabledOptions = []
+    const indexesOfEnabledOptions = []
 
     for (let i = 0; i < options.length; i++) {
       if (!options[i].disabled) {
