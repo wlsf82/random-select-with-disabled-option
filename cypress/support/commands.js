@@ -1,4 +1,4 @@
-Cypress.Commands.add('selectRandomFruit', () => {
+Cypress.Commands.add('pickRandomFruit', () => {
   cy.get('select option').then(options => {
     let indexesOfEnabledOptions = []
 
